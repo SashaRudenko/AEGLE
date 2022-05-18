@@ -1,0 +1,41 @@
+html,
+body,
+#root {
+  height: 100%;
+  position: relative;
+  font-family: 'Lato', 'Rufina', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Lato', 'Rufina', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: normal;
+  src: url('common/fonts/Lato/Lato-Regular.ttf') format('truetype');
+};
+
+@font-face {
+  font-family: 'Rufina';
+  font-weight: normal;
+  src: url('common/fonts/Rufina/Rufina-Regular.ttf') format('truetype');
+};
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 600;
+  src: url('common/fonts/Lato/Lato-Bold.ttf') format('truetype');
+};
